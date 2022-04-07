@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(0, 0, 0, 0.027);
+}
+.convert-text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #1f2235;
+}
+.convert-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.convert-input{
+    margin: 5px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0 8px;
+    color: #666;
+    width: 200px;
+}
+.convert-button{
+    color: white;
+    border: 2px solid white;
+    font-size: 14px;
+    line-height: 30px;
+    width: 120px;
+    background-color: #1f2235;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.convert-button:hover{
+    background-color:#666 ;
+}
+ 
+@media screen and (max-width:750px) {
+    .convert-input{
+        width: 50px;
+        margin: 2px;
+    }
+    
+}
